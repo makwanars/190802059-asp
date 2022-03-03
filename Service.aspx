@@ -1,171 +1,142 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/ClientMasterPage.master" AutoEventWireup="true" CodeFile="Service.aspx.cs" Inherits="_Default" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
- <!-- inner banner -->
-    <section class="inner-banner py-5">
-        <div class="w3l-breadcrumb py-lg-5">
-            <div class="container pt-4 pb-sm-4">
-                <h4 class="inner-text-title font-weight-bold pt-sm-5 pt-4">Services</h4>
-                <ul class="breadcrumbs-custom-path">
-                    <li><a href="index.html">Home</a></li>
-                    <li class="active"><i class="fas fa-angle-right mx-2"></i>Services</li>
-                </ul>
-            </div>
+ <!-- about breadcrumb -->
+  <section class="w3l-about-breadcrumb text-left">
+    <div class="breadcrumb-bg breadcrumb-bg-about py-3">
+      <div class="container grid-breadcrumb">
+        <ul class="breadcrumbs-custom-path mt-md-2">
+          <li><a href="index.html">Home</a></li>
+          <li class="active"><span class="fa fa-angle-double-right mx-2" aria-hidden="true"></span> Services </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <!-- //about breadcrumb -->
+  <div class="w3l-cta5 call-to-action-5-content text-center py-5">
+    <div class="container py-md-5">
+      <h3 class="subhny-title text-center">What We Offer</h3>
+      <h3 class="hny-title text-center mb-4">Our Services</h3>
+      <p class="shny-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus sapiente commodi maiores
+        ullam est nostrum
+        aliquam!.Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+      <a href="#url" class="btn btn-primary btn-style mb-4">Read More <span class="fa fa-chevron-right"></span></a>
+      <div class="three-grids d-grid grid-columns-3">
+        <div class="grid">
+          <div class="icon">
+            <span class="fa fa-free-code-camp" aria-hidden="true"></span>
+          </div>
+          <div class="icon-info">
+            <h4><a href="#">Hot Plates</a></h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab sint consectetur quasi mollitia? Qui, nihil?
+            </p>
+          </div>
         </div>
-        <div class="shape">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 280">
-                <path fill-opacity="1">
-                    <animate attributeName="d" dur="20000ms" repeatCount="indefinite"
-                        values="M0,160L48,181.3C96,203,192,245,288,261.3C384,277,480,267,576,234.7C672,203,768,149,864,117.3C960,85,1056,75,1152,90.7C1248,107,1344,149,1392,170.7L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z; M0,160L48,181.3C96,203,192,245,288,234.7C384,224,480,160,576,133.3C672,107,768,117,864,138.7C960,160,1056,192,1152,197.3C1248,203,1344,181,1392,170.7L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z;												 M0,64L48,74.7C96,85,192,107,288,133.3C384,160,480,192,576,170.7C672,149,768,75,864,80C960,85,1056,171,1152,181.3C1248,192,1344,128,1392,96L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z;
-                                                 M0,160L48,181.3C96,203,192,245,288,261.3C384,277,480,267,576,234.7C672,203,768,149,864,117.3C960,85,1056,75,1152,90.7C1248,107,1344,149,1392,170.7L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z;" />
+        <div class="grid">
+          <div class="icon">
+            <span class="fa fa-flask" aria-hidden="true"></span>
+          </div>
+          <div class="icon-info">
+            <h4><a href="#">Desserts</a></h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab sint consectetur quasi mollitia? Qui, nihil?
+            </p>
+          </div>
+        </div>
+        <div class="grid">
+          <div class="icon">
+            <span class="fa fa-book" aria-hidden="true"></span>
+          </div>
+          <div class="icon-info">
+            <h4><a href="#">Spicy foods</a></h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab sint consectetur quasi mollitia? Qui, nihil?
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- /call to action 5 -->
+  <section class="w3l-features14">
+    <div class="w3l-feature-6-main py-5">
+      <div class="container py-lg-5">
+        <div class="row align-center">
+          <div class="col-lg-7 img-left">
+            <div class="header-section text-left mb-5">
+              <span class="subhny-title">Services We Do</span>
+              <h3 class="hny-title">
+               What We Do
+              </h3>
+            </div>
+            <div class="grid mt-0">
+              <div class="w3l-feature-6-gd">
+                <div class="icon"><span class="fa fa-free-code-camp"></span></div>
+                <div class="w3l-feature-6-gd-info">
+                  <h3><a href="#url">Fresh dishes</a></h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+                </div>
+              </div>
+              <div class="w3l-feature-6-gd">
+                <div class="icon"><span class="fa fa-sitemap"></span></div>
+                <div class="w3l-feature-6-gd-info">
+                  <h3><a href="#url">Roast</a></h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+                </div>
+              </div>
+            </div>
 
-                </path>
-            </svg>
+            <div class="grid">
+              <div class="w3l-feature-6-gd">
+                <div class="icon"><span class="fa fa-glass"></span></div>
+                <div class="w3l-feature-6-gd-info">
+                  <h3><a href="#url">Soups</a></h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+                </div>
+              </div>
+              <div class="w3l-feature-6-gd">
+                <div class="icon"><span class="fa fa-clone"></span></div>
+                <div class="w3l-feature-6-gd-info">
+                  <h3><a href="#url">Sweet & Snaks</a></h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-5 img-right mt-5 pt-lg-4">
+            <img src="assets/images/pic2.png" class="img-fluid" alt="">
+          </div>
         </div>
-    </section>
-    <!-- //inner banner -->
-    <!-- services block -->
-    <section class="home-about-w3l pt-lg-5 pb-5" id="features">
-        <div class="container py-md-5 py-4">
-            <div class="title-heading-w3 text-center mx-auto mb-4" style="max-width:500px;">
-                <h3 class="title-style">Services We're offering</h3>
-            </div>
-            <div class="row align-items-center">
-                <div class="col-lg-4 col-sm-6">
-                    <div class="grids-1">
-                        <div class="icon-style">
-                            <i class="fas fa-chart-pie"></i>
-                        </div>
-                        <h4 class="title-head mb-2"><a href="about.html">Digital Solution</a></h4>
-                        <p>Sed ut unde omnis iste natus error sit oluptatem accusa ntium dolo remque
-                            ladase.</p>
-                        <a href="about.html" class="btn btn-style btn-style-primary mt-4">Read More<i
-                                class="fas fa-arrow-right ms-1"></i></a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 mt-sm-5 mt-4">
-                    <div class="grids-1 active">
-                        <div class="icon-style">
-                            <i class="fas fa-edit"></i>
-                        </div>
-                        <h4 class="title-head mb-2"><a href="about.html">Business Plan</a></h4>
-                        <p>Sed ut unde omnis iste natus error sit oluptatem accusa ntium dolo remque
-                            ladase.</p>
-                        <a href="about.html" class="btn btn-style btn-style-primary mt-4">Read More<i
-                                class="fas fa-arrow-right ms-1"></i></a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 mt-sm-0 mt-4">
-                    <div class="grids-1">
-                        <div class="icon-style">
-                            <i class="fas fa-chess"></i>
-                        </div>
-                        <h4 class="title-head mb-2"><a href="about.html">StartUp</a></h4>
-                        <p>Sed ut unde omnis iste natus error sit oluptatem accusa ntium dolo remque
-                            ladase.</p>
-                        <a href="about.html" class="btn btn-style btn-style-primary mt-4">Read More<i
-                                class="fas fa-arrow-right ms-1"></i></a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 mt-sm-5 mt-4">
-                    <div class="grids-1">
-                        <div class="icon-style">
-                            <i class="fas fa-chalkboard-teacher"></i>
-                        </div>
-                        <h4 class="title-head mb-2"><a href="about.html">Expert Advice</a></h4>
-                        <p>Sed ut unde omnis iste natus error sit oluptatem accusa ntium dolo remque
-                            ladase.</p>
-                        <a href="about.html" class="btn btn-style btn-style-primary mt-4">Read More<i
-                                class="fas fa-arrow-right ms-1"></i></a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <div class="grids-1">
-                        <div class="icon-style">
-                            <i class="fas fa-clone"></i>
-                        </div>
-                        <h4 class="title-head mb-2"><a href="about.html">Custom Redesign</a></h4>
-                        <p>Sed ut unde omnis iste natus error sit oluptatem accusa ntium dolo remque
-                            ladase.</p>
-                        <a href="about.html" class="btn btn-style btn-style-primary mt-4">Read More<i
-                                class="fas fa-arrow-right ms-1"></i></a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 mt-sm-5 mt-4">
-                    <div class="grids-1">
-                        <div class="icon-style">
-                            <i class="fas fa-lightbulb"></i>
-                        </div>
-                        <h4 class="title-head mb-2"><a href="about.html">Creative Idea</a></h4>
-                        <p>Sed ut unde omnis iste natus error sit oluptatem accusa ntium dolo remque
-                            ladase.</p>
-                        <a href="about.html" class="btn btn-style btn-style-primary mt-4">Read More<i
-                                class="fas fa-arrow-right ms-1"></i></a>
-                    </div>
-                </div>
-            </div>
+      </div>
+    </div>
+  </section>
+  <!--/-->
+  <section class="w3l-grids1">
+    <div class="hny-three-grids py-5">
+      <div class="container py-lg-5">
+        <div class="row">
+          <div class="col-lg-3 col-sm-6 mt-0 grids5-info">
+            <span class="fa fa-cutlery" aria-hidden="true"></span>
+            <h4><a href="#url">Sweet Cheeses</a></h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam esse? dolores impedit.</p>
+          </div>
+          <div class="col-lg-3 col-sm-6 mt-sm-0 mt-5 grids5-info">
+            <span class="fa fa-snowflake-o" aria-hidden="true"></span>
+            <h4><a href="#url">Vegetables</a></h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam esse? dolores impedit.</p>
+          </div>
+          <div class="col-lg-3 col-sm-6 mt-md-0 mt-5 grids5-info">
+            <span class="fa fa-glass" aria-hidden="true"></span>
+            <h4><a href="#url">Bean Soup</a></h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam esse? dolores impedit.</p>
+          </div>
+          <div class="col-lg-3 col-sm-6 mt-0 grids5-info">
+            <span class="fa fa-adjust" aria-hidden="true"></span>
+            <h4><a href="#url"> Eggs with Ham</a></h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam esse? dolores impedit.</p>
+          </div>
         </div>
-    </section>
-    <!-- services block -->
-    <!-- content block -->
-    <section class="w3l-covers-14 w3l-covers-14-2 text-center py-5">
-        <div class="container py-md-5 py-4 my-lg-5 my-4">
-            <div class="covers14-text text-center mx-auto pt-lg-5 pb-lg-5 pb-4" style="max-width:700px">
-                <h3 class="title-style text-white">Ready to get started but not sure where to begin?<br>
-                    <span>Let’s figure it out together.</span></h3>
-            </div>
-            <a href="about.html" class="btn btn-style mx-auto mt-4">Let’s Get Started!</a>
-        </div>
-    </section>
-    <!-- //content block -->
-    <!-- pricing block -->
-    <section class="pricing-w3l pt-5 pb-4">
-        <div class="container pt-md-5 pt-4">
-            <div class="title-heading-w3 text-center mx-auto mb-md-5 mb-4 pb-md-1" style="max-width:500px;">
-                <h3 class="title-style">Pick the right plan!</h3>
-            </div>
-            <div class="row no-gutters pt-4">
-                <div class="col-lg-4 box-pricing">
-                    <h3 class="text-price">Standard</h3>
-                    <h4>$0<span>per month</span></h4>
-                    <ul>
-                        <li><i class="fas fa-check-circle"></i> Basic website checkup</li>
-                        <li><i class="fas fa-check-circle"></i> SEO recommendations</li>
-                        <li><i class="fas fa-check-circle"></i> Google Ads basic plan</li>
-                        <li class="na"><span><i class="fas fa-check-circle"></i> Social Media plan</span></li>
-                        <li class="na"><span><i class="fas fa-check-circle"></i> Company & Business Setup</span></li>
-                    </ul>
-                    <a href="#button" class="btn btn-style mt-4">Get Started</a>
-                </div>
-
-                <div class="col-lg-4 box-pricing featured">
-                    <h3 class="text-price">Popular</h3>
-                    <h4>$29<span>per month</span></h4>
-                    <ul>
-                        <li><i class="fas fa-check-circle"></i> Basic website checkup</li>
-                        <li><i class="fas fa-check-circle"></i> SEO recommendations</li>
-                        <li><i class="fas fa-check-circle"></i> Google Ads basic plan</li>
-                        <li><i class="fas fa-check-circle"></i> Social Media plan</li>
-                        <li class="na"><span><i class="fas fa-check-circle"></i> Company & Business Setup</span></li>
-                    </ul>
-                    <a href="#button" class="btn btn-style btn-style-2 mt-4">Get Started</a>
-                </div>
-
-                <div class="col-lg-4 box-pricing">
-                    <h3 class="text-price">Premium</h3>
-                    <h4>$49<span>per month</span></h4>
-                    <ul>
-                        <li><i class="fas fa-check-circle"></i> Basic website checkup</li>
-                        <li><i class="fas fa-check-circle"></i> SEO recommendations</li>
-                        <li><i class="fas fa-check-circle"></i> Google Ads basic plan</li>
-                        <li><i class="fas fa-check-circle"></i> Social Media plan</li>
-                        <li><i class="fas fa-check-circle"></i> Company & Business Setup</li>
-                    </ul>
-                    <a href="#button" class="btn btn-style mt-4">Get Started</a>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- //pricing block -->
+      </div>
+    </div>
+  </section>
+  <!--//-->
 </asp:Content>
 
