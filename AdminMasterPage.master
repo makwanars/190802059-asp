@@ -282,6 +282,14 @@
                         <span>Manage User </span>
                     </a>
                 </li>
+
+                  <li>
+                    <a href="ManageService.aspx">
+                        <i class="fa fa-tasks"></i>
+                        <span>Manage Service </span>
+                    </a>
+                </li> 
+
                 <li>
                     <a href="fontawesome.html">
                         <i class="fa fa-bullhorn"></i>
