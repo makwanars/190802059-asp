@@ -63,16 +63,17 @@
                                                 <asp:Literal ID="Literal5" runat="server" Text='<%# Eval("status") %>'></asp:Literal>
                                             </ItemTemplate>
                                         </asp:TemplateField>
-                                        <asp:TemplateField HeaderText="Edit">
-                                            <ItemTemplate>
-                                                <asp:Button ID="Button5" runat="server" CommandArgument='<%# Eval("id") %>' 
-                                                    onclick="Button5_Click" Text="Edit" />
-                                            </ItemTemplate>
-                                        </asp:TemplateField>
+                                       
                                         <asp:TemplateField HeaderText="Delete">
                                             <ItemTemplate>
                                                 <asp:Button ID="Button4" runat="server" CommandArgument='<%# Eval("id") %>' 
                                                     onclick="Button4_Click" Text="Delete" />
+                                            </ItemTemplate>
+                                        </asp:TemplateField>
+                                         <asp:TemplateField HeaderText="Edit">
+                                            <ItemTemplate>
+                                                <asp:Button ID="Button5" runat="server" CommandArgument='<%# Eval("id") %>' 
+                                                    onclick="Button5_Click" Text="Edit" />
                                             </ItemTemplate>
                                         </asp:TemplateField>
                                     </Columns>
